@@ -1,0 +1,144 @@
+*{
+    font-family: 'lato', sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+
+.card{
+    background-color: #f1f1f1;
+}
+
+.card-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Section project */
+
+.relative-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-4{
+    filter: brightness(50%);
+    transition: all .4s;
+    cursor: pointer;
+}
+.col-md-4:hover, .content-banner:hover{
+    filter: brightness(100%);
+}
+
+.content-banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+    opacity: 0;
+}
+.content-banner:hover{
+    opacity: 1;
+}
+
+@media(max-width: 768px){
+    .col-md-4{
+        filter: brightness(100%);
+    }
+    .content-banner{
+        opacity: 1;
+    }
+}
+
+.inf-custom-text{
+    color: #e1a337;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Contact */
+.icon-contact img{
+    width: 60px;
+}
+
+.icon-contact a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.form-group{
+margin: 10px 0;
+}
+
+/* Footer Nav*/
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+}
+
+.nav-footer li{
+    margin: 5px 0;
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: #000;
+    transition: all .3s;
+}
+
+.nav-footer a:hover{
+    color: #413f3f;
+}
+
+/* Footer bottom */
+.color-footer{
+    background-color: #e7e7e7;
+}
+
+.icon-network{
+    margin: 10px 0;
+}
+.icon-network a{
+    text-align: center;
+    font-size: 2rem;
+    color: #413f3f;
+    transition: .3s;
+}
+
+.icon-network a:hover{
+    transform: scale(1.3);
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #d5d3d3;
+}
+
+.copyright strong{
+    font-size: 1.1rem;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #2054e4;
+    transition: all .3s;
+}
+
+.copyright a:hover{
+    color: #072b8d;
+}

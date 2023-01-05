@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo-navbar.svg">
+
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nunito+Sans:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- CSS Projeto  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Javascrip Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>DC Arquitetura e engenharia</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-bran" href="#">
+                <img src="./img/logo-navbar.svg" alt="Logo da empresa">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nossa Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- SLIDER -->
+    <header>
+        <section id="slider" class="carousel slide carousel-fade relative-div" data-bs-ride="carousel"
+            data-bs-interval="5000" data-bs-pause="false">
+            <div class="position-absolute" style="z-index: 3;">
+                <a href="" class="btn btn-dark text-uppercase">Ver projetos</a>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-indicators ">
+                    <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2">
+                    </button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3">
+                    </button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="3" aria-label="Slide 4">
+                    </button>
+                </div>
+                <div class="carousel-item active">
+                    <picture>
+                        <source srcset="./img/slide-mobile-1.png" type="image/png" media="(max-width: 768px)">
+                        <img src="./img/slide-desktop-1.png" class="w-100" alt="Slide 1">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="./img/slide-mobile-2.png" type="image/png" media="(max-width: 768px)">
+                        <img src="./img/slide-desktop-2.png" class="w-100" alt="Slide 2">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="./img/slide-mobile-3.png" type="image/png" media="(max-width: 768px)">
+                        <img src="./img/slide-desktop-3.png" class="w-100" alt="Slide 3">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="./img/slide-mobile-4.png" type="image/png" media="(max-width: 768px)">
+                        <img src="./img/slide-desktop-4.png" class="w-100" alt="Slide 4">
+                    </picture>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#slider">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" href="#slider" type="button" data-bs-slide="next"
+                data-bs-target="#slider">
+                <span class="carousel-control-next-icon" href="#slider" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </section>
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+            <div class="text-center my-3">
+                <h1 class="py-3">DC Arquitetura e engenharia</h1>
+                <h2 class="text-uppercase">Experiência em planejamento e execução</h2>
+                <p class="h4">Nossa empresa nasceu do desejo de entregar um serviço de arquitetura e engenharia que
+                    possuísse
+                    qualidade e personalidade. </p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-xl-3 p-2">
+                            <div class="card mx-auto text-center shadow p-2 rounded">
+                                <img class="w-25 mx-auto " src="./img/icon-banner-1.svg"
+                                    alt="Icone Projeto Arquitetônico">
+                                <div class="card-body">
+                                    <h5 class="card-title">Projeto Arquitetônico</h5>
+                                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3 p-2">
+                            <div class="card mx-auto text-center shadow p-2 rounded">
+                                <img class="w-25 mx-auto" src="./img/icon-banner-2.svg"
+                                    alt="Icone Design de Interiores">
+                                <div class="card-body">
+                                    <h5 class="card-title">Design de Interiores</h5>
+                                    <a href="#" class="btn btn-dark ">Saiba Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3 p-2">
+                            <div class="card mx-auto text-center shadow p-2 rounded">
+                                <img class="w-25 mx-auto" src="./img/icon-banner-3.svg" alt="Icone Projeto Estrutural">
+                                <div class="card-body">
+                                    <h5 class="card-title">Projeto Estrutural</h5>
+                                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3 p-2">
+                            <div class="card mx-auto text-center shadow p-2 rounded">
+                                <img class="w-25 mx-auto" src="./img/icon-banner-4.svg" alt="IconeProjeto Elétrico ">
+                                <div class="card-body">
+                                    <h5 class="card-title">Projeto Elétrico</h5>
+                                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SECTION PROJECT -->
+    <section>
+        <div class="container">
+            <div class="col-12">
+                <h2 class="title text-uppercase">Nossos projetos</h2>
+                <h5 class="subtitle ">Nossos projetos são frutos da nossa expriência e qualidade.</h5>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-4 p-2 relative-div">
+                            <img src="img/project-1.png" alt="Imagem de Projeto 1" class="img-fluid">
+                            <div class="content-banner">
+                                <a class="btn btn-dark text-uppercase ">Ver projeto</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 p-2 relative-div">
+                            <img src="img/project-2.png" alt="Imagem de Projeto 2" class="img-fluid">
+                            <div class="content-banner">
+                                <a class="btn btn-dark text-uppercase ">Ver projeto</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 p-2 relative-div">
+                            <img src="img/project-3.png" alt="Imagem de Projeto 3" class="img-fluid">
+                            <div class="content-banner">
+                                <a class="btn btn-dark text-uppercase ">Ver projeto</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 p-2 relative-div">
+                            <img src="img/project-4.png" alt="Imagem de Projeto 4" class="img-fluid">
+                            <div class="content-banner">
+                                <a class="btn btn-dark text-uppercase ">Ver projeto</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 p-2 relative-div">
+                            <img src="img/project-5.png" alt="Imagem de Projeto 5" class="img-fluid">
+                            <div class="content-banner">
+                                <a class="btn btn-dark text-uppercase ">Ver projeto</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 p-2 relative-div">
+                            <img src="img/project-6.png" alt="Imagem de Projeto 6" class="img-fluid">
+                            <div class="content-banner">
+                                <a class="btn btn-dark text-uppercase ">Ver projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SELECTION CONTACT -->
+    <section class="container">
+        <div class="row py-3">
+            <div class="col-12 col-lg-5">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2 class="text-uppercase h5">Faça sua casa dos sonhos se tornar realidade</h2>
+                    </div>
+                    <div class="col-12">
+                        <img src="img/contact.png" alt="Informações da empresa" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 relative-div">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2 class="title text-uppercase">Cuidamos de tudo para você</h2>
+                        <h5 class="">Acompanhamos todas as etapas do seu projeto, desde o seu planejamento até o término
+                            da sua execução e o pós-obra.</h5>
+                    </div>
+                    <div class="col-12">
+                        <div class="row text-center text-uppercase">
+                            <div class="col-12 col-lg-4">
+                                <h3 class="inf-custom-text">+12 Anos</h3>
+                                <p class="fw-bold">No mercado</p>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <h3 class="inf-custom-text">+100 Mil</h3>
+                                <p class="fw-bold">Projetos arquitetônicos</p>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <h3 class="inf-custom-text">+20 Mil</h3>
+                                <p class="fw-bold">Construçãoes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center py-2 text-uppercase">
+                        <a href="#" class="btn btn-dark">Entre em contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 ">
+                            <h2>Contato</h2>
+                            <h5>Entre em contato conosco por telefone, WhatsApp ou e-mail, será um prazer conversar
+                                sobre
+                                seu projeto!</h5>
+                            <div class="row ">
+                                <div class="col-12 col-md-6 ">
+                                    <div class="icon-contact my-2">
+                                        <a href="#" class="relative-div justify-content-start">
+                                            <img src="./img/icon-whatsapp.svg" alt="Icone WhatsApp" class="mx-3">
+                                            <div class="">
+                                                <h5 class="fw-bold">WhatsApp</h5>
+                                                <p>(35) 9999-9999</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="icon-contact my-2">
+                                        <a href="#" class="relative-div justify-content-start">
+                                            <img src="./img/icon-call.svg" alt="Icone Telefone" class="mx-3">
+                                            <div>
+                                                <h5 class="fw-bold">Contato</h5>
+                                                <p>(35) 9999-9999</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="icon-contact my-2">
+                                        <a href="#" class="relative-div justify-content-start">
+                                            <img src="./img/icon-location.svg" alt="Icone Endereço" class="mx-3">
+                                            <div class="#">
+                                                <h5 class="fw-bold">Endereço</h5>
+                                                <p>Rua Endereço, N 80</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="icon-contact my-2">
+                                        <a href="#" class="relative-div justify-content-start">
+                                            <img src="./img/icon-email.svg" alt="Icone E-mail" class="mx-3">
+                                            <div>
+                                                <h5 class="fw-bold">E-mail</h5>
+                                                <p>contato@gmail.com</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="row">
+                                <h3 class="h4 p-2 text-center">Nos envie uma mensagem que entraremos em contato</h3>
+                                <form class="">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Nome</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Seu nome">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Contato</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="(35) 9999-9999">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Mensagem</label>
+                                        <textarea class="form-control" placeholder="Olá."
+                                            id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid color-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center my-3">
+                            <img src="./img/logo-footer.png" alt="Logo Rodapé">
+                        </div>
+                        <div class="col-10 mx-auto">
+                            <ul class="nav-footer flex-lg-row">
+                                <li><a href="#">Início</a></li>
+                                <li><a href="#">Serviços</a></li>
+                                <li><a href="#">Nossa Equipe</a></li>
+                                <li><a href="#">Projetos</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-10 col-lg-3 mx-auto">
+                            <div class="row icon-network">
+                                <a href="" class="col-3">
+                                    <i class="bi bi-facebook "></i>
+                                </a>
+                                <a href="" class="col-3">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="" class="col-3">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                                <a href="" class="col-3">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <strong>DC Copyright &copy; 2023 - Todos os direitos reservados. Desenvolvido por <a href="#"
+                alt="Rodapé todos os direitos reservados">JFC
+                Tecnologia.</a></strong>
+        </div>
+    </footer>
+</body>
+
+</html>

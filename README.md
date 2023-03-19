@@ -22,7 +22,7 @@ O intuito foi criar um site usando Bootstrap, e utilizando o mínimo possível d
 # Sobre a criação do projeto
 
 ### Bootstrap
-O Bootstrap foi utilizado usando os padrões recomendados pelo site oficial.
+O Bootstrap foi utilizado seguindo os padrões recomendados pelo site oficial.
 
 ### Imagens
 Todas as imagens usadas foram comprimidas para deixar os arquivos mais leves e com isso melhorar o carregamento da página.

@@ -41,7 +41,7 @@ Foi seguidos os padrões de semântica do HTML5.
 
 
 # clonar repositório
-git clone https://github.com/Josuel-Junior/Site-DC-Arquitetura-e-Engenharia
+git clone https://github.com/Josuel-Junior/Site-DC-Arquitetura-e-Engenharia/tree/master
 
 
 # Autor

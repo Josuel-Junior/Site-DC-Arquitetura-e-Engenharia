@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-https://josuel-junior.github.io/Site-DC-Arquitetura-e-Engenharia/
+https://josuel-junior.github.io/site-dc-arquitetura-e-engenharia/
 
 O site DC Arquitetura e Engenharia é um site institucional fictício criado com HTML CSS e BOOTSTRAP. 
 O intuito foi criar um site usando Bootstrap e utilizando o mínimo possível de CSS para acelerar a produtividade, já que essa tecnologia nos proporciona muitas ferramentas.
